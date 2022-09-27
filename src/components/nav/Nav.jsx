@@ -18,7 +18,7 @@ function Nav(){
         <a href="#" class="item">Inicio </a>
         <a href="#" class="item">Ubicanos </a>
         <a href="#" class="item">Opiniciones </a>
-        <a href="views/login.html" class="botonsesion"><i class="fa-solid fa-user"></i>Iniciar sesion</a>
+        <a href="../login/Login.jsx" class="botonsesion"><i class="fa-solid fa-user"></i>Iniciar sesion</a>
         </div>  
     </nav>
     <div class="primerimg">
