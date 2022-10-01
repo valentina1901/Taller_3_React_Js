@@ -6,7 +6,7 @@ import Descripcion from '../../components/descripcion/Descripcion';
 import Sectindex from '../../components/sectindex/Sectindex';
 import Ubicanos from '../../components/ubicanos/Ubicanos';
 import Nosotros from '../../components/nosotros/Nosotros';
-//import Footerindex from '../../components/nav/Nav';
+import Footerindex from '../../components/footerindex/Footerindex';
 
 function Home() {
   return (
@@ -17,6 +17,7 @@ function Home() {
     <Sectindex/>
     <Ubicanos/>
     <Nosotros/>
+    <Footerindex/>
     </div>
   );
 }

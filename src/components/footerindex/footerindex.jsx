@@ -1,8 +1,8 @@
 
-import './footerindex.css';
+import './Footerindex.css';
 
 
-function footerindex(){
+function Footerindex(){
     return(
 
         <footer class="piepag">
@@ -36,4 +36,4 @@ function footerindex(){
  );
 }
 
-export default footerindex;
+export default Footerindex;
