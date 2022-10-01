@@ -1,9 +1,9 @@
-import './Registro.css';
+import './Registrou.css';
 
 import campanah from './Hotelia horizontal blanco.svg'
 
 
-function Registro(){
+function Registrou(){
 
 return(
 <>
@@ -20,4 +20,4 @@ return(
     );
 }
 
-export default Registro;
+export default Registrou;

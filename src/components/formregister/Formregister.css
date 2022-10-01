@@ -1,0 +1,65 @@
+.formulario{
+    grid-area: formulario;
+    background-color: rgba(225, 228, 225, 0.86);
+    margin: 20px;
+    border-radius: 7px;
+}
+
+.form{
+    margin: 0px 20px;
+    padding: 20px 0px;
+}
+
+.form-1{
+    display: none;
+}
+
+.titulo{
+    margin-top: 20px;
+}
+
+label{
+    margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+img{
+    display: flex;
+    margin: auto;
+    width: 130px;
+}  
+
+.checks{
+    display: flex;
+    gap: 20px;
+}
+.form-check{
+    height: 70px;
+    padding: 2px;
+}
+
+.footer{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer input{
+    font-size: 18px;
+}
+
+.button {
+    margin-bottom: 20px;
+    width: 50%;
+    height: 30px;
+    background-color: var(--negro2);
+    color: #fff;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+}
