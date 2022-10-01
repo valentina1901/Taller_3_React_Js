@@ -25,7 +25,6 @@ url('https://fonts.googleapis.com/css2?family=Marcellus&amp;family=Roboto:ital,w
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    background-image: url(../img/fondo-dash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 80px;
@@ -59,7 +58,6 @@ h1,h2,h3,h4,h5 {
 }
 
 .logos{
-    background-image: url(../img/Group\ 200.svg);
     background-repeat: no-repeat;
     background-size: cover;
     border: none;

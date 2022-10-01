@@ -1,11 +1,15 @@
 
 import './Home.css';
-import Nav from '../../components/nav/Nav';
+import Section from '../../components/section/Section';
+import Formulario from '../../components/formulario/Formulario';
+import Registro from '../../components/registro/Registro';
 
 function Home() {
   return (
     <div>
-    <Nav />
+    <Section />
+    <Formulario/>
+    <Registro/>
     </div>
   );
 }

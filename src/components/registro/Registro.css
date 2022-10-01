@@ -1,0 +1,19 @@
+.header{
+    display: block;
+    text-align: center;
+    grid-area: header;
+    margin-top: 20px;
+    background: rgb(72,137,180);
+    background: linear-gradient(90deg, rgba(72,137,180,1) 0%, rgba(17,53,105,1) 100%, rgba(0,212,255,1) 100%);
+    padding: 5px;
+}
+
+.te{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.te1{
+    display: none;
+}
