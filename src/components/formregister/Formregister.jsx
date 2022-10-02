@@ -1,8 +1,5 @@
 import './Formregister.css';
 
-
-
-
 function Register(){
 
 return(
