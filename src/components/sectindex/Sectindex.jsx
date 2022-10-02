@@ -1,30 +1,32 @@
 
 import './Sectindex.css';
-
+import Feature from './Cardindex.jsx';
 
 function Sectindex(){
     return(
-
+//props
     <section id="features">
     <h2 class="feature-title">Razones por las que disfrutarás quedarte con nosotros</h2>
     <div class="feature-description">
-        <div class="feature feature-blue">
-            <i class="fa-solid fa-bell-concierge"></i>
-            <p>Lorem ipsum dolor</p>
-        </div>
-        <div class="feature feature-black">
-            <i class="fa-solid fa-bed"></i>
-            <p>Lorem ipsum dolor</p>
-        </div>
-        <div class="feature feature-blue">
-            <i class="fa-solid fa-wifi"></i>
-            <p>Lorem ipsum dolor</p>
-        </div>
-        <div class=" feature feature-black">
-            <i class="fa-solid fa-dumbbell"></i>
-            <p>Lorem ipsum dolor</p>
-        </div>
+        <Feature
+        icono="fa-solid fa-bell-concierge"
+        texto="Lorem ipsum dolor"
+        background={true}/>
+        <Feature
+        icono="fa-solid fa-bed"
+        texto="Lorem ipsum dolor"
+        background={false}/>
+         <Feature
+        icono="fa-solid fa-wifi"
+        texto="Lorem ipsum dolor"
+        background={true}/>
+        <Feature
+        icono="fa-solid fa-dumbbell"
+        texto="Lorem ipsum dolor"
+        background={false}/>
     </div>
+    
+   
 </section>
 
 );
