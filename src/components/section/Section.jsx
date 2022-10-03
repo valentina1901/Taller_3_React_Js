@@ -47,7 +47,7 @@ return(
                 <h6>Reservas</h6>
             </div>
         </a>
-        <a href="indexGrid.html">
+        <a href="/">
             <div class="opcion" id="exit">
                 <i class="fas fa-arrow-right-from-bracket"></i>
                 <h6>Cerrar sesión</h6>

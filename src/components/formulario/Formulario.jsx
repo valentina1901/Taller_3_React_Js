@@ -6,6 +6,8 @@ function Formulario(){
 
 return(
 <>
+<body class="bari">
+    
 
 <section class="formulario">
 
@@ -105,7 +107,7 @@ return(
 </div>
 
 </section>    
-
+</body>
 
 </>
     
