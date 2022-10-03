@@ -1,6 +1,6 @@
 import './Formregister.css';
 
-function Register(){
+function Formregister(){
 
 return(
 <>
@@ -182,4 +182,4 @@ return(
     );
 }
 
-export default Register;
+export default Formregister;

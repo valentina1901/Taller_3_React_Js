@@ -1,0 +1,87 @@
+
+  .bodyin {
+    background: url(./loginh.PNG);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: 15px;
+    background-size: 90%;
+    background-size: auto 70px;
+    background-size: auto 150%;
+  }
+
+  .formin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .formuin {
+    background: url(./relogin.PNG);
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 400px;
+    border-radius: 3px;
+    padding: 40px 75px;
+    opacity: 85%;
+  }
+
+  .logologin {
+    height:90px; 
+    width:150px; 
+  }
+
+  .formcontainer{
+    margin-bottom: 10px;
+  }
+  
+  .labelogin{
+    color: var(--blanco);
+    text-shadow: 0.1em 0.1em 0.2em black
+  }
+
+  .sincuenta{
+    color: var(--blanco);
+    text-decoration: none;
+  }
+
+  .iconologin .fa-solid{
+    margin-bottom: 15px;
+    display:inline-block;
+    color: var(--Magenta);
+    position: relative;
+    right: -100px
+  }
+
+  .inputlogin{
+    display: block;
+    padding-left:40px;
+    padding-right:40px;
+    
+  }
+  
+  .registro{
+    margin-top: 10px;
+  }
+
+  .registrar{
+    color: var(--negro2);
+    text-decoration: none;
+  }
+
+  .boton{
+    margin-top: 40px;
+  }
+
+  .boton a{
+  text-decoration: none;
+  padding: 5px;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: var(--negro2);
+  border-radius: 2px;
+  padding-left:100px;
+  padding-right:100px;
+  margin-top:5px ;
+  }

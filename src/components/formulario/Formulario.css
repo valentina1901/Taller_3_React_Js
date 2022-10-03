@@ -15,10 +15,14 @@ url('https://fonts.googleapis.com/css2?family=Marcellus&amp;family=Roboto:ital,w
   --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
 }
 
+body{
+    background-image: url(./fondo-dash.jpg);
+}
 .formulario{
     background-color: rgba(225, 228, 225, 0.86);
     margin: 20px;
     border-radius: 7px;
+    
     
 }
 
@@ -27,7 +31,7 @@ url('https://fonts.googleapis.com/css2?family=Marcellus&amp;family=Roboto:ital,w
     padding: 20px 0px;
 }
 
-label{
+.lab{
     margin-top: 10px;
 }
 

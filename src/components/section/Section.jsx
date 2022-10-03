@@ -7,6 +7,9 @@ function Section(){
 
 return(
 <>
+<body class="cuerpo">
+    
+
 <section class="dashboard">
 
 
@@ -55,6 +58,7 @@ return(
 </div>
 
 </section>
+</body>
 </>
 
     

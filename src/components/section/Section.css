@@ -22,7 +22,7 @@ url('https://fonts.googleapis.com/css2?family=Marcellus&amp;family=Roboto:ital,w
 
 }
 
-body {
+.cuerpo {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     background-image: url(./fondo-dash.jpg);
