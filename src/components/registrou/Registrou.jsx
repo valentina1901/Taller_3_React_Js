@@ -7,15 +7,18 @@ function Registrou(){
 
 return(
 <>
+<body class="bodyform">
+    
+
 <section class="header">
 
-        <div class="heade">
-            <img src={campanah}></img>
-            <p class="te">Un lugar en tu corazón</p>
-            <p class="te1">Eres más que bienvenido</p>
-        </div>
+    <div class="bienvenido">
+    <img src={campanah}></img>
+        <h1>Eres más que bienvenido</h1>
+      </div>
 
     </section>
+    </body>
 </>
     );
 }

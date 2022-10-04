@@ -51,7 +51,8 @@ return(
                                 </label>
                             </form>
                         </div>
-                    </div>
+                    </div> <br />
+                    <br />
 
                     <div class="form-group">
                         <label for="email">Email</label>

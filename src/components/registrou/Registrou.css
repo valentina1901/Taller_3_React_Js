@@ -1,19 +1,38 @@
-.header{
-    display: block;
-    text-align: center;
-    grid-area: header;
-    margin-top: 20px;
-    background: rgb(72,137,180);
-    background: linear-gradient(90deg, rgba(72,137,180,1) 0%, rgba(17,53,105,1) 100%, rgba(0,212,255,1) 100%);
-    padding: 5px;
-}
+.bienvenido{
+    background-color: var(--azuloscuro);
+    margin-right: 50%;
+    height: 100%;
+    opacity: 90%;
+  }
+  
+  .bodyform{
+    display: grid;
+    grid-template: "header" 10% "formulario" auto;
 
-.te{
-    color: #fff;
-    font-size: 25px;
+  }
+
+  .bodyform .bienvenido{
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+  }
+
+  .bienvenido img{
+    margin-top: 70%;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .bienvenido img{
+    margin-top: 70%;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .bienvenido h1{
+    color: var(--blanco);
+    margin-left: 25%;
     margin-top: 10px;
-}
-
-.te1{
-    display: none;
-}
+  }
